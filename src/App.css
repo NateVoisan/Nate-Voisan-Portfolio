@@ -1,38 +1,372 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  justify-content: space-between;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logo {
+  max-height: 32px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bar {
+  color: white;
+  margin-top: 18px;
 }
 
-@keyframes App-logo-spin {
+.bars {
+  font-weight: bolder;
+}
+
+.header-nav {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.header-icon {
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+.nav-group {
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  vertical-align: middle;
+}
+
+.about-group {
+  /* padding: 50px 150px; */
+  padding-top: 45px;
+  color: white;
+  width: 60%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.about-container {
+  padding: 20px;
+  border-radius: 20px;
+  border: solid #555555;
+  margin-top: 25px;
+  background-color: rgb(0,0,0, 0.8);
+}
+
+.about-content {
+  font-size: 14px;
+}
+
+.about-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-group {
+  padding-top: 30px;
+  color: white;
+  width: 60%;
+  margin-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contact-container {
+  padding: 20px;
+  border-radius: 20px;
+  border: solid #555555;
+  background-color: rgb(0,0,0, 0.8);
+}
+
+.contact-links {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+input {
+  width: 50%;
+  border-radius: 15px;
+  text-align: center;
+  outline: none;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.submit-group {
+  padding: 20px;
+}
+
+.submit-btns {
+  padding: 0px 50px;
+  margin: 10px;
+  border-radius: 15px;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.me {
+  /* width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 80px; */
+  justify-content: center;
+  display: block;
+  margin: auto;
+  padding: auto;
+  /* width: 50%;
+  height: 96vh;
+  position: static; */
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.img-div {
+  height: 100vh;
+  background-image: url(/src/images/NVpic.png);
+  /* , url(/src/images/pixels.gif) */
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.intro-div {
+}
+
+.project-div {
+}
+
+@keyframes opacityPulse {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+@keyframes glow {
   from {
-    transform: rotate(0deg);
+    text-shadow: 0 0 10px black, 0 0 20px white, 0 0 30px black,
+      0 0 40px white, 0 0 50px black, 0 0 60px white, 0 0 70px black;
   }
   to {
-    transform: rotate(360deg);
+    text-shadow: 0 0 20px white, 0 0 30px black, 0 0 40px white,
+      0 0 50px black, 0 0 60px white, 0 0 70px black, 0 0 80px white;
+  }
+}
+
+@keyframes glowtoo {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,
+      0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white,
+      0 0 50px white, 0 0 60px white, 0 0 70px white, 0 0 80px white;
+  }
+}
+
+.glowtoo:hover {
+  animation: glowtoo 1s ease-in-out infinite alternate;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.software {
+  animation: opacityPulse 5s ease-out;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+.software {
+  animation: glow 1s ease-in-out infinite alternate;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.fashion {
+  animation: opacityPulse 7.5s ease-out;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+.music {
+  animation: opacityPulse 10s ease-out;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+.intro-and-img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-image: url(/src/images/pixels.gif); */
+  background: transparent;
+}
+
+.intro-group {
+  padding-top: 30px;
+  color: white;
+  width: 90%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: fixed;
+  text-align: right;
+  justify-content: right;
+  z-index: -10;
+}
+
+.intro-container {
+  padding: 20px;
+  z-index: -10;
+  margin-top: 30vh;
+}
+
+.intro-title {
+  margin: 30px;
+  text-align: center;
+}
+
+.project-group {
+  color: white;
+  background-color: rgb(0,0,0);
+  
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-item {
+  margin: 5px;
+  padding: 0px 5px;
+  border-radius: 20px;
+  border: solid 2px #555555;
+  height: max-content;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  height: 50%;
+}
+
+.live-app {
+  font-size: 18px;
+  padding: 0;
+  margin: 15px;
+}
+
+.project-tech {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.project-content {
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  .header-title {
+    text-align: left;
+    margin: 0;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 48px;
   }
 }
