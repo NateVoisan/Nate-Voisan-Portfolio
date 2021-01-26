@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import github from "../images/github.png";
-import linkedin from "../images/linkedin.png";
-import email from "../images/email.png";
 
 class Contact extends Component {
   renderForm() {

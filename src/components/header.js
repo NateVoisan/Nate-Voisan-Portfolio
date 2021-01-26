@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import email from "../images/email.png";
+// import email from "../images/email.png";
 
 class Header extends Component {
   render() {
