@@ -20,11 +20,11 @@ class Header extends Component {
             <nav className="header-nav">Contact</nav>
           </Link>
           <p className='bar'>|</p>
-          <a href="mailto:nate.voisan@gmail.com" className="header-icon glowtoo">
+          {/* <a href="mailto:nate.voisan@gmail.com" className="header-icon glowtoo">
             <img src={email} alt="email" height="30px" width="30px" className='glowtoo' />
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com/in/nate-voisan" className="header-icon glowtoo">
-            <img src={linkedin} alt="linkedin" height="28px" width="30px" className='glowtoo' />
+            <img src={linkedin} alt="linkedin" height="25px" width="30px" className='glowtoo' />
           </a>
           <a href="https://github.com/NateVoisan" className="header-icon glowtoo">
             <img src={github} alt="github" height="30px" width="30px" className='glowtoo' />

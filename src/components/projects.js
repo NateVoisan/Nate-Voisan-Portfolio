@@ -46,7 +46,7 @@ class Projects extends Component {
               or track they so choose.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, Jest, Mocha/Chai,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, REST, Jest, Mocha/Chai,
               Vercel, Heroku
             </p>
           </div>
@@ -89,7 +89,7 @@ class Projects extends Component {
               related to current news.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, API Scraper,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, API Scraper, REST,
               Mocha/Chai, Vercel, Heroku
             </p>
           </div>
@@ -99,7 +99,7 @@ class Projects extends Component {
             <div className="project-links">
               <p>
                 <a
-                  href="https://github.com/NateVoisan/Spaced-Repetition-Client"
+                  href="https://github.com/MettyS/yamma-client"
                   className="glowtoo"
                 >
                   GitHub Client
@@ -115,7 +115,7 @@ class Projects extends Component {
               </p>
               <p>
                 <a
-                  href="https://github.com/NateVoisan/Spaced-Repetition-Api"
+                  href="https://github.com/MettyS/yamma-server"
                   className="glowtoo"
                 >
                   GitHub Server
@@ -136,7 +136,7 @@ class Projects extends Component {
               are shown less frequently.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, Cypress,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, REST, Cypress,
               Mocha/Chai, Vercel, Heroku
             </p>
           </div>
