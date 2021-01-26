@@ -46,7 +46,7 @@ class Projects extends Component {
               or track they so choose.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, REST, Jest, Mocha/Chai,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, Express REST, Jest, Mocha/Chai,
               Vercel, Heroku
             </p>
           </div>
@@ -89,7 +89,7 @@ class Projects extends Component {
               related to current news.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, API Scraper, REST,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, Express, API Scraper, REST,
               Mocha/Chai, Vercel, Heroku
             </p>
           </div>
@@ -136,7 +136,7 @@ class Projects extends Component {
               are shown less frequently.
             </p>
             <p className="project-tech">
-              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, REST, Cypress,
+              React, HTML5, CSS3, ES6, Node, Knex, PostgresQL, Express, REST, Cypress,
               Mocha/Chai, Vercel, Heroku
             </p>
           </div>
