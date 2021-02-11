@@ -64,7 +64,7 @@ class Projects extends Component {
               </p>
               <p className="live-app">
                 <a
-                  href="https://coloratura-front.vercel.app/"
+                  href="https://yamma-client-bcn857hee.vercel.app/"
                   className="glowtoo"
                 >
                   Live App
