@@ -15,6 +15,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/NateVoisan/coloratura-front"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Client
                 </a>
@@ -23,6 +24,7 @@ class Projects extends Component {
                 <a
                   href="https://coloratura-front.vercel.app/"
                   className="glowtoo"
+                  target="_blank"
                 >
                   Live App
                 </a>
@@ -31,6 +33,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/NateVoisan/coloratura-back"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Server
                 </a>
@@ -58,6 +61,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/NateVoisan/coloratura-front"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Client
                 </a>
@@ -66,6 +70,7 @@ class Projects extends Component {
                 <a
                   href="https://yamma-client-bcn857hee.vercel.app/"
                   className="glowtoo"
+                  target="_blank"
                 >
                   Live App
                 </a>
@@ -74,6 +79,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/NateVoisan/coloratura-back"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Server
                 </a>
@@ -101,6 +107,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/MettyS/yamma-client"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Client
                 </a>
@@ -109,6 +116,7 @@ class Projects extends Component {
                 <a
                   href="https://spaced-repetition-nu.vercel.app/"
                   className="glowtoo"
+                  target="_blank"
                 >
                   Live App
                 </a>
@@ -117,6 +125,7 @@ class Projects extends Component {
                 <a
                   href="https://github.com/MettyS/yamma-server"
                   className="glowtoo"
+                  target="_blank"
                 >
                   GitHub Server
                 </a>
